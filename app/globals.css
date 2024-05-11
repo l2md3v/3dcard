@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+.avatar img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.badges svg {
+  height: 24px;
+  width: 24px;
+}
+
+@media only screen and (max-width: 450px) {
+  .avatar img {
+    width: 84px;
+    height: 85px;
+  }
+}
